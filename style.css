@@ -527,7 +527,7 @@
 .pixelated-image-card__pixel {
   background-color: currentColor;
   width: 100%;
-  height: auto%;
+  height: auto;
   display: none;
   position: absolute;
 }
