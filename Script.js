@@ -225,6 +225,7 @@
             });
         }
 
+        
         // testing new JS functionality
     // ------- Osmo [https://osmo.supply/] ------- //
 
@@ -308,11 +309,6 @@ document.addEventListener('DOMContentLoaded', function () {
       card.addEventListener('mouseenter', () => {
         if (!isActive) {
           animatePixels(true);
-        }
-      });
-      card.addEventListener('mouseleave', () => {
-        if (isActive) {
-          animatePixels(false);
         }
       });
     }
