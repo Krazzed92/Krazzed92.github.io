@@ -19,8 +19,8 @@
 
         /* Header */
         header {
-            background: rgba(255, 255, 255, 0.103);
-            backdrop-filter: blur(10px);
+            background: rgba(41, 39, 39, 0.116);
+            backdrop-filter: (10px);
             position: fixed;
             top: 0;
             width: 100%;
@@ -38,7 +38,7 @@
         .logo {
             font-size: 1.5rem;
             font-weight: bold;
-            color: white;
+            color: #42c3ff;
             text-decoration: none;
         }
 
@@ -49,7 +49,7 @@
         }
 
         .nav-links a {
-            color: white;
+            color: #42c3ff;
             text-decoration: none;
             transition: color 0.3s ease;
             position: relative;
@@ -76,12 +76,12 @@
 
         /* Hero Section */
         .hero {
-            height: 100vh;
             display: flex;
+            height: 100vh;
             align-items: center;
             justify-content: center;
             text-align: center;
-            color: rgba(66, 195, 255, 1);
+            color: #42c3ff;
             position: relative;
 
              background-image: url('photo1.jpg'); /* Set image as background */
@@ -90,6 +90,28 @@
             background-repeat: no-repeat;        /* Prevent image repetition */
         }
 
+        
+            .grid {
+            --gap: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: var(--gap);
+            }
+
+            .row {
+            display: flex;
+            gap: var(--gap);
+            }
+
+            .cell {
+            --size: 24px;
+            width: var(--size);
+            height: var(--size);
+            background-color: #fffce1;
+            border-radius: 50%;
+            will-change: transform;
+            cursor: pointer;
+            }
         .hero-content h1 {
             font-size: 3.5rem;
             margin-bottom: 1rem;
@@ -334,6 +356,17 @@
             box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
         }
 
+        .j-h-logo {
+            border-radius: 75%;
+            width: 150px;
+            height: auto;
+            transition: transform 0.3s ease;
+            transform: scale(1);
+        }
+        
+        .j-h-logo:hover {
+            transform: scale(1.75);
+        }
         /* Contact Section */
         .contact {
             padding: 5rem 0;

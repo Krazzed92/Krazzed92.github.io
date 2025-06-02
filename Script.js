@@ -210,3 +210,17 @@
                 this.style.transform = 'translateY(-2px) scale(1)';
             });
         });
+
+       // Add clipboard copy functionality to Email link
+       function copyEmail() {
+            const email = 'kenneth.johnson1992@outlook.com';
+
+        navigator.clipboard.writeText(email)
+            .then(() => {
+            alert('Email copied to clipboard: ' + email);
+            })
+            .catch(err => {
+            console.error('Failed to copy email:', err);
+            alert('Failed to copy email. Please try again.');
+            });
+        }

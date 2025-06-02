@@ -31,7 +31,7 @@
         <!-- Floating particles will be added by JavaScript -->
     </section>
 
-    <!-- About Section -->
+    <!-- About Section --><div >
     <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
@@ -53,7 +53,7 @@
                 <div class="skill-card">
                     <div class="skill-icon">🌐</div>
                     <h3>Frontend Development</h3>
-                    <p>HTML, CSS, Tailwind CSS, JavaScript</p>
+                    <p>HTML, CSS, Tailwind CSS, JavaScript, GSAP</p>
                 </div>
                 <div class="skill-card">
                     <div class="skill-icon">⚙️</div>
@@ -61,14 +61,14 @@
                     <p>Spent time developing ecommerce on Wix</p>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon">🗄️</div>
+                    <div class="skill-icon">🤖</div>
                     <h3>AI</h3>
                     <p>Prompting AI to assist in expediting Development</p>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-icon">📱</div>
-                    <h3>Mobile Development</h3>
-                    <p>React Native, Flutter, iOS, Android</p>
+                    <div class="skill-icon">💻</div>
+                    <h3>Continuing Education</h3>
+                    <p>Allowing trying to learn something new or expand my current knowledge.</p>
                 </div>
             </div>
         </div>
@@ -80,7 +80,9 @@
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card" data-project="ecommerce">
-                    <div class="project-image">🛒</div>
+                    <div class="project-image"> 
+                        <img src="J-h-hydro/Images/Business-Logo_files/Logo-v1.png" alt="J & H Hydroponics Logo" class="j-h-logo">
+                    </div>
                     <div class="project-content">
                         <h3 class="project-title">J & H Hydroponics</h3>
                         <p class="project-description">A full-featured e-commerce platform with user authentication, payment processing, and admin dashboard.</p>
@@ -91,7 +93,7 @@
                         </div>
                         <div class="project-links">
                             <a href="J-h-hydro/index.html" class="project-link">Live Demo</a>
-                            <a href="#" class="project-link">GitHub</a>
+                            <a href="https://github.com/Krazzed92/J-and-H-Prints" target="_blank" class="project-link">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -159,8 +161,8 @@
             <div class="contact-content">
                 <h2 class="section-title" style="color: white;">Let's Work Together</h2>
                 <p>I'm always excited to take on new challenges and collaborate on interesting projects.</p>
-                <div class="contact-links">
-                    <a href="kenneth.johnson1992@outlook.com" target="_blank" class="contact-link">
+                <div class="contact-links" class="project-card" data-project="taskmanager">
+                    <a href="#" onclick="copyEmail()"  class="contact-link">
                         📧 Email
                     </a>
                     <a href="https://www.linkedin.com/in/kennethjohnson1992/" target="_blank" class="contact-link">
@@ -183,7 +185,7 @@
             </div>
         </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
     <script src="Script.js"></script>
 </body>
 </html>
