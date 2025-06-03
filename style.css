@@ -514,7 +514,7 @@
 .pixelated-image-card__active, 
 .pixelated-image-card__pixels{
   width: 450px;
-  height: 600px;
+  height: 550px;
   position: absolute;
   top: 0;
   left: 0;
@@ -569,3 +569,5 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* tailwind import */ 

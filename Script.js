@@ -48,12 +48,9 @@
                     'User authentication and authorization',
                     'Product catalog with search and filtering',
                     'Shopping cart and checkout process',
-                    'Payment integration with Stripe',
-                    'Admin dashboard for inventory management',
-                    'Order tracking and history',
                     'Responsive design for all devices'
                 ],
-                technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe API', 'JWT', 'Bootstrap'],
+                technologies: ['JavaScript', 'HTML5', 'CSS3'],
                 challenges: 'The main challenge was implementing secure payment processing and creating an intuitive admin interface for inventory management.',
                 github: 'https://github.com/alexchen/ecommerce-platform',
                 demo: 'https://ecommerce-demo.alexchen.dev'
@@ -101,13 +98,12 @@
                     'Responsive design',
                     'Performance optimized',
                     'SEO friendly',
-                    'Contact form integration',
                     'Social media integration'
                 ],
-                technologies: ['HTML5', 'CSS3', 'JavaScript', 'GSAP', 'Intersection Observer API', 'Service Workers'],
+                technologies: ['HTML5', 'CSS3', 'JavaScript', 'GSAP', 'Tailwind CSS'],
                 challenges: 'Balancing visual appeal with performance optimization while ensuring accessibility across all devices.',
-                github: 'https://github.com/alexchen/creative-portfolio',
-                demo: 'https://portfolio.alexchen.dev'
+                github: 'https://github.com/krazzed92/krazzed92.github.io',
+                demo: '#'
             }
         };
 
